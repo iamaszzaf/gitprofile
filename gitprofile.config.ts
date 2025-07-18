@@ -101,7 +101,7 @@ const CONFIG = {
       position: 'Magazynier',
       from: 'Listopad 2024',
       to: 'Obecnie',
-      companyLink: 'http://piercegroup.com/',
+      companyLink: 'https://piercegroup.com/',
     },
     {
       company: 'Grupa Muszkieterów',
