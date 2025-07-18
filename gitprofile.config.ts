@@ -1,4 +1,4 @@
-// gitprofile.config.ts
+// gitprofile.config.tss
 
 const CONFIG = {
   github: {
