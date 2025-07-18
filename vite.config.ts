@@ -37,9 +37,9 @@ export default defineConfig({
             },
             includeAssets: ['favicon.svg'],
             manifest: {
-              name: 'Portfolio',
-              short_name: 'Portfolio',
-              description: 'Personal Portfolio',
+              name: 'Łukasz Majka',
+              short_name: 'Łukasz Majka',
+              description: 'Cześć! Jestem Łukasz – programista z pasją do tworzenia nowoczesnych aplikacji webowych, które łączą estetykę z funkcjonalnością. Dzięki doświadczeniu w technologiach frontendowych i backendowych oferuję kompleksowe podejście do projektów IT, od projektowania interfejsów użytkownika po zaawansowaną logikę biznesową.',
               icons: [
                 {
                   src: 'favicon.svg',
