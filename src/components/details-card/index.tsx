@@ -179,7 +179,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
               {profile.location && (
                 <ListItem
                   icon={<MdLocationOn />}
-                  title="Based in:"
+                  title="Z:"
                   value={profile.location}
                 />
               )}
@@ -324,7 +324,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
               {social?.website && (
                 <ListItem
                   icon={<FaGlobe />}
-                  title="Website:"
+                  title="Strona:"
                   value={social.website
                     .replace('https://', '')
                     .replace('http://', '')}
