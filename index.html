@@ -29,4 +29,29 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
+  <script>
+  (function() {
+    function getCookie(name) {
+      const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+      return match ? decodeURIComponent(match[2]) : null;
+    }
+  
+    const colors = {
+      light: '#ebebeb',
+      dark: '#15191e',
+      lofi: '#ebebeb',
+    };
+  
+    const theme = getCookie('gitprofile-theme') || 'lofi';
+  
+    let meta = document.querySelector('meta[name="theme-color"]');
+    if (!meta) {
+      meta = document.createElement('meta');
+      meta.name = 'theme-color';
+      document.head.appendChild(meta);
+    }
+  
+    meta.setAttribute('content', colors[theme] || colors.light);
+  })();
+  </script>
 </html>
