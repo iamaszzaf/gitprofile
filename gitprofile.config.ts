@@ -116,13 +116,13 @@ const CONFIG = {
       name: 'AI-102: Azure AI Engineer Associate',
       body: 'Microsoft',
       year: 'Lipiec 2025 - Lipiec 2026',
-      link: 'https://www.microsoft.com/',
+      link: '',
     },
     {
       name: 'AZ-900: Azure Fundamentals',
       body: 'Microsoft',
       year: 'Styczeń 2025',
-      link: 'https://www.microsoft.com/',
+      link: '',
     },
   ],
   // educations: [
