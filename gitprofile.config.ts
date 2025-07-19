@@ -38,7 +38,7 @@ const CONFIG = {
             'Zeptra. to zaawansowany system zarządzania magazynem, który automatyzuje i optymalizuje kluczowe procesy magazynowe. Dzięki śledzeniu zapasów w czasie rzeczywistym oraz technologii RFID i kodów kreskowych, zapewnia pełną kontrolę nad stanem zapasów. Usprawnia procesy przyjęcia, przechowywania, kompletacji i wydania towarów, skracając czas operacji i minimalizując błędy. System integruje się z innymi rozwiązaniami firmy, takimi jak ERP, umożliwiając płynny przepływ danych. Dzięki zaawansowanym narzędziom analitycznym, dostarcza raporty o stanie zapasów i wydajności magazynu. Jego skalowalność i elastyczność sprawiają, że doskonale sprawdza się zarówno w małych, jak i dużych magazynach.',
           imageUrl:
             '',
-          link: 'https://zeptra.space/',
+          link: 'https://zeptra.space',
         },
         {
           title: 'CzyPunktualnie?',
@@ -46,12 +46,12 @@ const CONFIG = {
             'CzyPunktualnie? to innowacyjna platforma dedykowana komunikacji miejskiej, której celem jest poprawa punktualności i jakości usług transportowych. Aplikacja oferuje użytkownikom możliwość śledzenia pojazdów w czasie rzeczywistym, planowania podróży oraz uzyskiwania precyzyjnych informacji o opóźnieniach i zmianach w rozkładach jazdy.',
           imageUrl:
             '',
-          link: 'https://czypunktualnie.pl/',
+          link: 'https://czypunktualnie.pl',
         },
       ],
     },
   },
-  seo: { title: 'Łukasz Majka', description: 'Cześć! Jestem Łukasz – programista z pasją do tworzenia nowoczesnych aplikacji webowych, które łączą estetykę z funkcjonalnością. Dzięki doświadczeniu w technologiach frontendowych i backendowych oferuję kompleksowe podejście do projektów IT, od projektowania interfejsów użytkownika po zaawansowaną logikę biznesową.', imageURL: 'https://media.licdn.com/dms/image/v2/D4D03AQER0Kc1KsOqdQ/profile-displayphoto-shrink_400_400/B4DZRC1EfvHYAk-/0/1736287996748?e=1755734400&v=beta&t=ByzJWhSWQhAnJS01BWXr2X0i_Bodb2S-pQGMepTHSrI' },
+  seo: { title: 'Łukasz Majka', description: '👋 Cześć! Jestem Łukasz – programista, który łączy wygląd i technologię w nowoczesnych aplikacjach webowych.', imageURL: 'https://media.licdn.com/dms/image/v2/D4D03AQER0Kc1KsOqdQ/profile-displayphoto-shrink_400_400/B4DZRC1EfvHYAk-/0/1736287996748?e=1755734400&v=beta&t=ByzJWhSWQhAnJS01BWXr2X0i_Bodb2S-pQGMepTHSrI' },
   social: {
     linkedin: 'majkalukasz07',
     x: '',
@@ -101,14 +101,14 @@ const CONFIG = {
       position: 'Magazynier',
       from: 'Listopad 2024',
       to: 'Obecnie',
-      companyLink: 'https://piercegroup.com/',
+      companyLink: 'https://piercegroup.com',
     },
     {
       company: 'Grupa Muszkieterów',
       position: 'Stażysta ds. logistyki',
       from: 'Wrzesień 2023',
       to: 'Sierpień 2024',
-      companyLink: 'https://muszkieterowie.pl/',
+      companyLink: 'https://muszkieterowie.pl',
     },
   ],
   certifications: [
