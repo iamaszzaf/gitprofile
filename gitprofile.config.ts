@@ -51,7 +51,7 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Łukasz Majka', description: '👋 Cześć! Jestem Łukasz – programista, który łączy wygląd i technologię w nowoczesnych aplikacjach webowych.', imageURL: 'https://media.licdn.com/dms/image/v2/D4D03AQER0Kc1KsOqdQ/profile-displayphoto-shrink_400_400/B4DZRC1EfvHYAk-/0/1736287996748?e=1755734400&v=beta&t=ByzJWhSWQhAnJS01BWXr2X0i_Bodb2S-pQGMepTHSrI' },
+  seo: { title: 'Łukasz Majka', description: '👋 Cześć! Jestem Łukasz – programista, który łączy wygląd i technologię w nowoczesnych aplikacjach.', imageURL: 'https://media.licdn.com/dms/image/v2/D4D03AQER0Kc1KsOqdQ/profile-displayphoto-shrink_400_400/B4DZRC1EfvHYAk-/0/1736287996748?e=1755734400&v=beta&t=ByzJWhSWQhAnJS01BWXr2X0i_Bodb2S-pQGMepTHSrI' },
   social: {
     linkedin: 'majkalukasz07',
     x: '',
