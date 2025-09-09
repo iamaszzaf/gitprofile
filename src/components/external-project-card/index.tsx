@@ -151,7 +151,7 @@ const ExternalProjectCard = ({
                   <div className="text-base-content/60 text-xs sm:text-sm mt-1 truncate">
                     {loading
                       ? skeleton({ widthCls: 'w-32', heightCls: 'h-4' })
-                      : `Showcasing ${externalProjects.length} projects`}
+                        : `Znaleziono ${externalProjects.length} ${externalProjects.length === 1 ? 'projekt' : (externalProjects.length < 5 ? 'projekty' : 'projektów')}.`}
                   </div>
                 </div>
               </div>
