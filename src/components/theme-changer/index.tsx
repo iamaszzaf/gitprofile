@@ -51,14 +51,14 @@ const ThemeChanger = ({
                 className: 'mb-1',
               })
             ) : (
-              <span className="text-base-content opacity-70">Theme</span>
+              <span className="text-base-content opacity-70">Motyw</span>
             )}
           </h5>
           <span className="text-base-content/50 capitalize text-sm">
             {loading
               ? skeleton({ widthCls: 'w-16', heightCls: 'h-5' })
               : theme === themeConfig.defaultTheme
-                ? 'Default'
+                ? 'Domyślny'
                 : theme}
           </span>
         </div>
@@ -70,7 +70,7 @@ const ThemeChanger = ({
               className: 'mr-6',
             })
           ) : (
-            <div title="Change Theme" className="dropdown dropdown-end">
+            <div title="Zmień motyw" className="dropdown dropdown-end">
               <div
                 tabIndex={0}
                 className="btn btn-ghost m-1 normal-case opacity-50 text-base-content flex items-center whitespace-nowrap"
@@ -95,7 +95,7 @@ const ThemeChanger = ({
                         className={`${theme === item ? 'active' : ''}`}
                       >
                         <span className="opacity-60 capitalize">
-                          {item === themeConfig.defaultTheme ? 'Default' : item}
+                          {item === themeConfig.defaultTheme ? 'Domyślny' : item}
                         </span>
                       </a>
                     </li>
