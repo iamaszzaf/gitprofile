@@ -157,7 +157,7 @@ const GithubProjectCard = ({
                   <div className="text-base-content/60 text-xs sm:text-sm mt-1 truncate">
                     {loading
                       ? skeleton({ widthCls: 'w-32', heightCls: 'h-4' })
-                      : `Showcasing ${githubProjects.length} featured repositories`}
+                      : `Znaleziono ${githubProjects.length} ${githubProjects.length === 1 ? 'repozytorium' : (githubProjects.length < 5 ? 'repozytoria' : 'repozytoriów')}.`}
                   </div>
                 </div>
               </div>
