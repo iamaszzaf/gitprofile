@@ -35,16 +35,16 @@ export default defineConfig({
             workbox: {
               navigateFallback: undefined,
             },
-            includeAssets: ['logo.png'],
+            includeAssets: ['favicon.svg'],
             manifest: {
-              name: 'Portfolio',
-              short_name: 'Portfolio',
-              description: 'Personal Portfolio',
+              name: 'Łukasz Majka',
+              short_name: 'Łukasz Majka',
+              description: 'Cześć! Jestem Łukasz – programista z pasją do tworzenia nowoczesnych aplikacji webowych, które łączą estetykę z funkcjonalnością. Dzięki doświadczeniu w technologiach frontendowych i backendowych oferuję kompleksowe podejście do projektów IT, od projektowania interfejsów użytkownika po zaawansowaną logikę biznesową.',
               icons: [
                 {
-                  src: 'logo.png',
-                  sizes: '64x64 32x32 24x24 16x16 192x192 512x512',
-                  type: 'image/png',
+                  src: 'favicon.svg',
+                  sizes: 'any',
+                  type: 'image/svg+xml',
                 },
               ],
             },
