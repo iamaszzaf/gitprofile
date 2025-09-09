@@ -145,7 +145,7 @@ const PublicationCard = ({
                   <div className="text-base-content/60 text-xs sm:text-sm mt-1 truncate">
                     {loading
                       ? skeleton({ widthCls: 'w-32', heightCls: 'h-4' })
-                      : `Znaleziono ${githubProjects.length} ${githubProjects.length === 1 ? 'publikacje' : (githubProjects.length < 5 ? 'publikacje' : 'publikacji')}.`}
+                      : `Znaleziono ${publications.length} ${publications.length === 1 ? 'publikacje' : (publications.length < 5 ? 'publikacje' : 'publikacji')}.`}
                   </div>
                 </div>
               </div>
