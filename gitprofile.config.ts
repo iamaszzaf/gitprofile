@@ -113,6 +113,18 @@ const CONFIG = {
   ],
   certifications: [
     {
+      name: 'Fundamentals of Accelerated Data Science',
+      body: 'NVIDIA',
+      year: 'Wrzesień 2025 - Wrzesień 2027',
+      link: 'https://courses.nvidia.com/certificates/f13c7e9a7e524d1b9c5a678f3b21b88f/',
+    },
+    {
+      name: 'Accelerating Data Engineering Pipelines',
+      body: 'NVIDIA',
+      year: 'Sierpień 2025 - Sierpień 2028',
+      link: 'https://courses.nvidia.com/certificates/4bde90214a7d4260a8fb69e768c0e57a/',
+    },
+    {
       name: 'AI-102: Azure AI Engineer Associate',
       body: 'Microsoft',
       year: 'Lipiec 2025 - Lipiec 2026',
