@@ -100,7 +100,7 @@ const CONFIG = {
       company: 'PDC Logistics',
       position: 'Magazynier',
       from: 'Listopad 2024',
-      to: 'Obecnie',
+      to: 'Wrzesień 2025',
       companyLink: 'https://piercegroup.com',
     },
     {
